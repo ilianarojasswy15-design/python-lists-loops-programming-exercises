@@ -11,12 +11,4 @@ tasks = [
 
 
 # Your code here
-def pend_tasks(item):
-	if item["done"] == True:
-		return True
-	else:
-		return False
-	
-done_tasks = list(filter(pend_tasks,tasks))
-print(done_tasks)
 
